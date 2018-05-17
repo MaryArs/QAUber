@@ -6,6 +6,6 @@ public class Launcher {
         prime.printPrimeNumbers(20);
 
         FibonacciNumbers fibnumber = new FibonacciNumbers();
-        fibnumber.printFibonacciNumbers(100);
+        fibnumber.printFibonacciNumbers(10);
     }
 }

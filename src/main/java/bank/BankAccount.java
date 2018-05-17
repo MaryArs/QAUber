@@ -4,7 +4,7 @@ public class BankAccount {
     private int accountNumber;
     private String consumerName;
     private double balance;
-    boolean isActive;
+    private boolean isActive;
 
     public BankAccount(int accountNumber, String consumerName, double balance, boolean isActive){
         this.accountNumber = accountNumber;
@@ -18,10 +18,11 @@ public class BankAccount {
     }
 
     public void withdraw(double amount){
-        balance = balance - amount;
-        if (balance < 500){
+
+        if ((balance -amount) < 500){
             System.out.println("You can't withdraw this amount!");
         } else {
+            balance = balance - amount;
             System.out.println("You have withdrawn " + amount + "$." + " and your new balance is " + balance +"$.");
         }
 
