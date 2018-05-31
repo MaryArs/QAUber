@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="89222eb0-dea4-4ee1-a22f-e7cffc73578d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QAUber_Fit/algorithm/LauncherArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/LauncherArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayList/LauncherArrayList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,28 +20,51 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/FibonacciNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListFibonacciNumbers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/ArrayListFibonacciNumbers.java">
+      <file leaf-file-name="Palendrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/Palendrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="418">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
-                <element signature="e#266#275#0" expanded="true" />
+                <element signature="e#211#220#0" expanded="true" />
+                <element signature="e#418#427#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LauncherArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/LauncherArrayList.java">
+      <file leaf-file-name="LauncherPalendrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/LauncherPalendrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ispalendrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/ispalendrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/p1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,14 +108,16 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrayList/ArrayListFibonacciNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/LauncherArrayList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrayList/LauncherPalendrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arrayList/Palendrome.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1485" />
-    <option name="y" value="326" />
-    <option name="width" value="1366" />
-    <option name="height" value="746" />
+    <option name="x" value="1360" />
+    <option name="y" value="45" />
+    <option name="width" value="1932" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -101,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,13 +161,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="palendrome" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LauncherArrayList">
+  <component name="RunManager" selected="Application.Palendrome">
     <configuration name="Launcher (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism.Launcher" />
       <module name="QAUber_Fit" />
@@ -190,29 +232,29 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="LauncherArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.LauncherArrayList" />
+      <option name="MAIN_CLASS_NAME" value="arrayList.LauncherArrayList" />
       <module name="QAUber_Fit" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Session5.Test" />
+    <configuration name="Palendrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.Palendrome" />
       <module name="QAUber_Fit" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Session5.*" />
+          <option name="PATTERN" value="arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,18 +302,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Launcher" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Launcher (1)" />
       <item itemvalue="Application.Launcher (2)" />
       <item itemvalue="Application.LauncherArrayList" />
+      <item itemvalue="Application.Palendrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palendrome" />
         <item itemvalue="Application.LauncherArrayList" />
         <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.Launcher (2)" />
         <item itemvalue="Application.Launcher (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -343,23 +385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/CitiBankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/ChaseBankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -589,20 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/ispalendrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/p1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Session5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -649,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,12 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,14 +680,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/FibonacciNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/LauncherArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/LauncherArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -695,6 +697,42 @@
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#266#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/p1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/LauncherPalendrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/ispalendrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/Palendrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#211#220#0" expanded="true" />
+            <element signature="e#418#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
