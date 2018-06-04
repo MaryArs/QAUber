@@ -4,7 +4,6 @@
     <list default="true" id="89222eb0-dea4-4ee1-a22f-e7cffc73578d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bank/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bank/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bank/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,33 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+            <state relative-caret-position="766">
+              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
               <folding>
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#1128#1129#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumBalanceException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bank/MinimumBalanceException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bank/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -92,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/bankAccount/CitiBankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/MinimumBalanceException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bank/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bank/BankAccount.java" />
       </list>
     </option>
   </component>
@@ -143,14 +135,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arrayList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -159,7 +143,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bankAccount" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,10 +304,11 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3292683" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32833022" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32833022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -344,7 +329,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3292683" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -357,12 +341,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/TestChromeDriver.java</url>
           <line>8</line>
           <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java</url>
-          <line>6</line>
-          <properties field="isActive" class="bank.BankAccount" />
-          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="3" />
@@ -635,6 +613,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#266#275#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -707,21 +688,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-          <folding>
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="766">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
