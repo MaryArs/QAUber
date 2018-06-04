@@ -17,10 +17,11 @@ public class BankAccount {
         balance = balance + amount;
     }
 
-    public void withdraw(double amount){
+    public void withdraw(double amount)throws MinimumBalanceException{
 
         if ((balance -amount) < 500){
-            System.out.println("You can't withdraw this amount!");
+            MinimumBalanceException minbalexception = new MinimumBalanceException();
+            throw minbalexception;
         } else {
             balance = balance - amount;
             System.out.println("You have withdrawn " + amount + "$." + " and your new balance is " + balance +"$.");
