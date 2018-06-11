@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" line="55" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" line="205" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89222eb0-dea4-4ee1-a22f-e7cffc73578d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QAUber_Fit/bank/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QAUber_Fit/bank/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QAUber_Fit/loggingtoFITS/loginAndFillReportsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QAUber_Fit/loggingtoFITS/loginAndFillReportsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="TestWebDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestWebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="23" column="32" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +43,8 @@
       <file leaf-file-name="loginAndFillReportsPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+            <state relative-caret-position="608">
+              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +120,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +154,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +341,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -667,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="342">
+          <caret line="23" column="32" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -677,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        <state relative-caret-position="608">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
