@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89222eb0-dea4-4ee1-a22f-e7cffc73578d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QAUber_Fit/loggingtoFITS/loginAndFillReportsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QAUber_Fit/loggingtoFITS/loginAndFillReportsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
+      <file leaf-file-name="loginAndFillReportsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestWebDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestWebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="32" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="3857">
+              <caret line="203" column="53" selection-start-line="9" selection-start-column="8" selection-end-line="206" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginAndFillReportsPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java">
+      <file leaf-file-name="LoginTestFits.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="-1881">
+              <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,12 +85,13 @@
         <option value="$PROJECT_DIR$/src/main/java/bankAccount/HSBCBankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/bankAccount/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/bankAccount/CitiBankAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/MinimumBalanceException.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/bank/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestWebDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java" />
       </list>
     </option>
   </component>
@@ -120,6 +111,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,18 +135,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,18 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.loginAndFillReportsPage">
-    <configuration name="HashmapReportPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashmap.HashmapReportPage" />
-      <module name="QAUber_Fit" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginTestFits.addReportsTest">
     <configuration name="Launcher (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bankAccount.Launcher" />
       <module name="QAUber_Fit" />
@@ -244,6 +217,35 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="LoginTestFits.addReportsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAUber_Fit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loginTestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="loginTestNG" />
+      <option name="MAIN_CLASS_NAME" value="loginTestNG.LoginTestFits" />
+      <option name="METHOD_NAME" value="addReportsTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -267,19 +269,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HashmapReportPage" />
       <item itemvalue="Application.Launcher (1)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestWebDriver" />
       <item itemvalue="Application.loginAndFillReportsPage" />
+      <item itemvalue="TestNG.LoginTestFits.addReportsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTestFits.addReportsTest" />
         <item itemvalue="Application.loginAndFillReportsPage" />
         <item itemvalue="Application.TestWebDriver" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Launcher (1)" />
-        <item itemvalue="Application.HashmapReportPage" />
       </list>
     </recent_temporary>
   </component>
@@ -345,13 +347,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/student/Launch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/ispalendrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -452,13 +447,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/insurance/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/TestAlgorithms.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/insurance/InsurancePolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -497,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/PrimeNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Session5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -539,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/LauncherArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -554,24 +528,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arrayList/LauncherPalendrome.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/ispalendrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/p1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/FibonacciNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -593,20 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bankAccount/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -638,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bank/MinimumBalanceException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -666,9 +605,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bankAccount/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/ispalendrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/PrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/FibonacciNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="437">
           <caret line="23" column="32" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -676,10 +657,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/insurance/InsurancePolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="3857">
+          <caret line="203" column="53" selection-start-line="9" selection-start-column="8" selection-end-line="206" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881">
+          <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

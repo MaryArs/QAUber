@@ -17,5 +17,6 @@ public class Launcher {
             sum += x;
         }
         System.out.println(sum);
+
     }
 }
