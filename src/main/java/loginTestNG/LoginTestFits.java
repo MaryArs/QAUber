@@ -15,11 +15,12 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTestFits {
+    private FirefoxDriver driver = null;
 
     @BeforeTest
     public void openBrowser() {
         System.setProperty("webdriver.gecko.driver", "/home/peer/dev/geckodriver");
-        FirefoxDriver driver = new FirefoxDriver();
+        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.get("http://fits.qauber.com");
@@ -27,10 +28,9 @@ public class LoginTestFits {
     }
 
 
-    @Test(groups = {"UserLogin", "Reports"})
-    public void loginTest(String emailID, String password) throws InterruptedException {
+    @Test//(groups = {"Reports"})
+    public void loginTest() throws InterruptedException {
 
-        FirefoxDriver driver = new FirefoxDriver();
         WebElement logintextbox = driver.findElementByXPath("//*[@id='exampleInputEmail1']");
         logintextbox.sendKeys("mary.arsitova@gmail.com");
         WebElement searchbutton = driver.findElementByXPath("//input[@id= 'exampleInputPassword1']");
@@ -39,75 +39,48 @@ public class LoginTestFits {
         WebElement login = driver.findElementByXPath("/html/body/div[2]/div/div/div[1]/div[2]/form/button");
         login.click();
     }
+//groups = {"Reports"},
+    @Test(dependsOnMethods = {"loginTest"}, dataProvider = "dataProviderAddReport")
 
-    @Test(dependsOnMethods = {"loginTest"}, groups = {"Reports"}, dataProvider = "dataProviderAddReport")
-    public void addReportsTest(String caseIDex) throws InterruptedException {
-        FirefoxDriver driver = new FirefoxDriver();
-        WebElement addReport = driver.findElementByXPath("html/body/div[2]/aside[1]/div/nav/ul/li[4]/a/span");
+    public void addReportsTest(String caseIDex, String lastNameex, String firstNameex, String middleNameex,
+                               String nickNameex, String dateOfBirthex, String ageex, String heightex, String weightex,
+                               String primaryLanguageex, String streetAddressex, String cityex, String stateex, String zipCodeex,
+                               String telephoneex, String emailex) throws InterruptedException {
+
+        WebElement addReport = driver.findElementByXPath("//a[@title = 'Add Report']");
         addReport.click();
         Thread.sleep(3000);
         WebElement subjectInformation = driver.findElementByXPath("//div[@title= 'Subject Information']");
         subjectInformation.click();
-        //WebElement caseID =
-                driver.findElementByXPath("//input[@name='caseNumber']").get(0).sendKeys(caseIDex);
-        WebElement suspectType = driver.findElementByXPath("//select[@ng-model='wizard.report.suspectType']/option[text()='Victim']");
-        suspectType.click();
-        WebElement lastName = driver.findElementByXPath("//input[@name='lastName']");
-        lastName.sendKeys("Arsitova");
-        WebElement firstName = driver.findElementByXPath("//input[@name='firstName']");
-        firstName.sendKeys("Marina");
-        WebElement middleName = driver.findElementByXPath("//input[@name='middleName']");
-        middleName.sendKeys("Viktorovna");
-        WebElement nickName = driver.findElementByXPath("//input[@name='Nickname']");
-        nickName.sendKeys("ArtMary");
-        WebElement dateOfBirth = driver.findElementByXPath("//input[@uib-datepicker-popup='MM/dd/yyyy']");
-        dateOfBirth.sendKeys("09/14/1980");
-        WebElement age = driver.findElementByXPath("//input[@name='Age']");
-        age.sendKeys("25");
-        WebElement sex = driver.findElementByXPath("//select[@ng-model='wizard.report.sex']/option[text()='F']");
-        sex.click();
-        WebElement race = driver.findElementByXPath("//select[@ng-model='wizard.report.race']/option[text()='Other']");
-        race.click();
-        WebElement height = driver.findElementByXPath("//input[@name='Height']");
-        height.clear();
-        height.sendKeys("130");
-        WebElement weight = driver.findElementByXPath("//input[@name='Weight']");
-        weight.clear();
-        weight.sendKeys("140.24");
-        WebElement build = driver.findElementByXPath("//select[@ng-model='wizard.report.build']/option[text()='Athletic']");
-        build.click();
-        WebElement hairColor = driver.findElementByXPath("//select[@ng-model='wizard.report.hairColor']/option[text()='Black']");
-        hairColor.click();
-        WebElement hairLength = driver.findElementByXPath("//select[@ng-model='wizard.report.hairLength']/option[text()='Long']");
-        hairLength.click();
-        WebElement hairStyle = driver.findElementByXPath("//select[@ng-model='wizard.report.hairStyle']/option[text()='Curly']");
-        hairStyle.click();
-        WebElement eyeColor = driver.findElementByXPath("//select[@ng-model='wizard.report.eyeColor']/option[text()='Blue']");
-        eyeColor.click();
-        WebElement complexion = driver.findElementByXPath("//select[@ng-model='wizard.report.complexion']/option[text()='Light']");
-        complexion.click();
-        WebElement teeth = driver.findElementByXPath("//select[@ng-model='wizard.report.teeth']/option[text()='Silver']");
-        teeth.click();
-        WebElement handPreference = driver.findElementByXPath("//select[@ng-model='wizard.report.handPreference']/option[text()='Right']");
-        handPreference.click();
-        WebElement primaryLanguage = driver.findElementByXPath("//input[@name='primary-language']");
-        primaryLanguage.sendKeys("en");
-        WebElement streetAddress = driver.findElementByXPath("//input[@name='street-address']");
-        streetAddress.sendKeys("208 Easy ave.");
-        WebElement country = driver.findElementByXPath("//select[@ng-model='wizard.report.country']/option[text()='United States']");
-        country.click();
-        WebElement city = driver.findElementByXPath("//input[@name='city']");
-        city.sendKeys("Sunnyvale");
-        WebElement state = driver.findElementByXPath("//input[@name='state']");
-        state.sendKeys("CA");
-        WebElement zipCode = driver.findElementByXPath("//input[@name='zip']");
-        zipCode.sendKeys("94084");
-        WebElement telephone = driver.findElementByXPath("//input[@name='phone']");
-        telephone.sendKeys("6695674355");
-        WebElement email = driver.findElementByXPath("//input[@name='email']");
-        email.sendKeys("mary.arsitova@gmail.com");
-        WebElement radiobutton = driver.findElementByXPath("//label[text()= 'Pedestrian']/span");
-        radiobutton.click();
+        driver.findElementByXPath("//input[@name='caseNumber']").sendKeys(caseIDex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.suspectType']/option[text()='Victim']").click();
+        driver.findElementByXPath("//input[@name='lastName']").sendKeys(lastNameex);
+        driver.findElementByXPath("//input[@name='firstName']").sendKeys(firstNameex);
+        driver.findElementByXPath("//input[@name='middleName']").sendKeys(middleNameex);
+        driver.findElementByXPath("//input[@name='Nickname']").sendKeys(nickNameex);
+        driver.findElementByXPath("//input[@uib-datepicker-popup='MM/dd/yyyy']").sendKeys(dateOfBirthex);
+        driver.findElementByXPath("//input[@name='Age']").sendKeys(ageex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.sex']/option[text()='F']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.race']/option[text()='Other']").click();
+        driver.findElementByXPath("//input[@name='Height']").sendKeys(heightex);
+        driver.findElementByXPath("//input[@name='Weight']").sendKeys(weightex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.build']/option[text()='Athletic']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.hairColor']/option[text()='Black']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.hairLength']/option[text()='Long']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.hairStyle']/option[text()='Curly']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.eyeColor']/option[text()='Blue']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.complexion']/option[text()='Light']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.teeth']/option[text()='Silver']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.handPreference']/option[text()='Right']").click();
+        driver.findElementByXPath("//input[@name='primary-language']").sendKeys(primaryLanguageex);
+        driver.findElementByXPath("//input[@name='street-address']").sendKeys(streetAddressex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.country']/option[text()='United States']").click();
+        driver.findElementByXPath("//input[@name='city']").sendKeys(cityex);
+        driver.findElementByXPath("//input[@name='state']").sendKeys(stateex);
+        driver.findElementByXPath("//input[@name='zip']").sendKeys(zipCodeex);
+        driver.findElementByXPath("//input[@name='phone']").sendKeys(telephoneex);
+        driver.findElementByXPath("//input[@name='email']").sendKeys(emailex);
+        driver.findElementByXPath("//label[text()= 'Pedestrian']/span").click();
         // next page Identifiers
         WebElement identifiers = driver.findElementByXPath("//div[@title= 'Identifiers']");
         identifiers.click();
@@ -231,7 +204,7 @@ public class LoginTestFits {
     }
 
     @DataProvider
-    public  Object[][] dataProviderMethod() throws Exception{
+    public  Object[][] dataProviderAddReport() throws Exception{
 
         Object[][] testObjArray = readExcel(
                 "src/main/resources/TestData.xls", "TestingSheet");
@@ -272,7 +245,6 @@ public class LoginTestFits {
 
     @AfterTest
     public void closeBrowser() {
-        FirefoxDriver driver = new FirefoxDriver();
         driver.quit();
     }
 }

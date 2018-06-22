@@ -19,7 +19,8 @@ public class loginAndFillReportsPage {
         Thread.sleep(3000);
         WebElement login = driver.findElementByXPath("/html/body/div[2]/div/div/div[1]/div[2]/form/button");
         login.click();
-        WebElement addReport = driver.findElementByXPath("html/body/div[2]/aside[1]/div/nav/ul/li[4]/a/span");
+        WebElement addReport = driver.findElementByXPath("//a[@title = 'Add Report']");
+        //("html/body/div[2]/aside[1]/div/nav/ul/li[4]/a/span");
         addReport.click();
         Thread.sleep(3000);
         WebElement subjectInformation = driver.findElementByXPath("//div[@title= 'Subject Information']");
