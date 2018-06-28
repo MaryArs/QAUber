@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89222eb0-dea4-4ee1-a22f-e7cffc73578d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/.~lock.TestData.xls#" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.~lock.TestData.xls#" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/TestData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestData.xls" afterDir="false" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="LoginTestFits.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+            <state relative-caret-position="-95">
+              <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#15514#15515#0" expanded="true" />
@@ -87,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1360" />
     <option name="y" value="45" />
     <option name="width" value="1932" />
@@ -331,39 +331,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 13m 46s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 14m 47s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 17m 20s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 19m 08s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 20m 17s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 23m 32s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 25m 58s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTestFits - 2018.06.21 at 17h 27m 49s.xml">
-      <configuration name="LoginTestFits" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTestFits - 2018.06.21 at 17h 29m 29s.xml">
       <configuration name="LoginTestFits" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LoginTestFits - 2018.06.21 at 17h 47m 36s.xml">
       <configuration name="LoginTestFits" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.21 at 18h 01m 10s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.21 at 18h 03m 19s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.25 at 15h 42m 33s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.25 at 15h 43m 27s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.25 at 15h 45m 06s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.25 at 15h 46m 38s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.25 at 15h 47m 54s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTestFits - 2018.06.25 at 15h 51m 57s.xml">
+      <configuration name="LoginTestFits" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1360" y="45" width="1932" height="1178" extended-state="6" />
+    <frame x="1360" y="45" width="1932" height="1178" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -374,7 +374,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32833022" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32833022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32833022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -747,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        <state relative-caret-position="-95">
+          <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#15514#15515#0" expanded="true" />

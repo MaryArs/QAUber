@@ -44,8 +44,12 @@ public class LoginTestFits {
 
     public void addReportsTest(String caseIDex, String lastNameex, String firstNameex, String middleNameex,
                                String nickNameex, String dateOfBirthex, String ageex, String heightex, String weightex,
-                               String primaryLanguageex, String streetAddressex, String cityex, String stateex, String zipCodeex,
-                               String telephoneex, String emailex) throws InterruptedException {
+                               String primaryLanguageex, String streetAddressex, String cityex,// String stateex,
+                               String zipCodeex,
+                               String telephoneex, String emailex, String socialSecurityex, String driverLicenseex,
+                               String otherIDex,  String otherIdStateex, String  otherIdTypeex, String schoolNameex, String schoolAddressex,
+                               String schoolCityex, String schoolZipex, String schoolTelephoneex,
+                               String parentNameex, String parentAddressex, String parentCityex, String parentZipex, String parentTelephoneex) throws InterruptedException {
 
         WebElement addReport = driver.findElementByXPath("//a[@title = 'Add Report']");
         addReport.click();
@@ -76,59 +80,37 @@ public class LoginTestFits {
         driver.findElementByXPath("//input[@name='street-address']").sendKeys(streetAddressex);
         driver.findElementByXPath("//select[@ng-model='wizard.report.country']/option[text()='United States']").click();
         driver.findElementByXPath("//input[@name='city']").sendKeys(cityex);
-        driver.findElementByXPath("//input[@name='state']").sendKeys(stateex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.state']/option[text()='California']").click();
         driver.findElementByXPath("//input[@name='zip']").sendKeys(zipCodeex);
         driver.findElementByXPath("//input[@name='phone']").sendKeys(telephoneex);
         driver.findElementByXPath("//input[@name='email']").sendKeys(emailex);
         driver.findElementByXPath("//label[text()= 'Pedestrian']/span").click();
         // next page Identifiers
-        WebElement identifiers = driver.findElementByXPath("//div[@title= 'Identifiers']");
-        identifiers.click();
-        WebElement identifier = driver.findElementByXPath("//input[@ng-model='wizard.report.tattoos']/../span");
-        identifier.click();
+        driver.findElementByXPath("//div[@title= 'Identifiers']").click();
+        driver.findElementByXPath("//input[@ng-model='wizard.report.tattoos']/../span").click();
         //next page ID Information
-        WebElement idInformation = driver.findElementByXPath("//div[@title= 'ID Information']");
-        idInformation.click();
-        WebElement socialSecurity = driver.findElementByXPath("//input[@name = 'socialSecurity']");
-        socialSecurity.sendKeys("314-45-6799");
-        WebElement driverLicense = driver.findElementByXPath("//input[@name = 'driverLicense']");
-        driverLicense.sendKeys("F23765554");
-        WebElement idState = driver.findElementByXPath("//select[@ng-model='wizard.report.dlState']/option[text()='California']");
-        idState.click();
-        WebElement otherID = driver.findElementByXPath("//input[@name= 'other-id']");
-        otherID.sendKeys("no");
-        WebElement otherIdCountry = driver.findElementByXPath("//select[@name = 'otherIdCountry']/option[@value = 'US']");
-        otherIdCountry.click();
-        WebElement otherIdState = driver.findElementByXPath("//input[@name = 'otherIdState']");
-        otherIdState.sendKeys("CA");
-        WebElement otherIdType = driver.findElementByXPath("//input[@name='other-id-type']");
-        otherIdType.sendKeys("passport 7388667");
+        driver.findElementByXPath("//div[@title= 'ID Information']").click();
+        driver.findElementByXPath("//input[@name = 'socialSecurity']").sendKeys(socialSecurityex);
+        driver.findElementByXPath("//input[@name = 'driverLicense']").sendKeys(driverLicenseex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.dlState']/option[text()='California']").click();
+        driver.findElementByXPath("//input[@name= 'other-id']").sendKeys(otherIDex);
+        driver.findElementByXPath("//select[@name = 'otherIdCountry']/option[@value = 'US']").click();
+        driver.findElementByXPath("//input[@name = 'otherIdState']").sendKeys(otherIdStateex);
+        driver.findElementByXPath("//input[@name='other-id-type']").sendKeys(otherIdTypeex);
         //School Information
-        WebElement schoolName = driver.findElementByXPath("//input[@name='school-name']");
-        schoolName.sendKeys("Challenger high school");
-        WebElement schoolAddress = driver.findElementByXPath("//input[@name='school-address']");
-        schoolAddress.sendKeys("380 Bernardo dr.");
-        WebElement schoolCity = driver.findElementByXPath("//input[@name='school-city']");
-        schoolCity.sendKeys("Palo Alto");
-        WebElement schoolState = driver.findElementByXPath("//select[@ng-model='wizard.report.schoolState']/option[@value = 'CA']");
-        schoolState.click();
-        WebElement schoolZip = driver.findElementByXPath("//input[@name='school-zip']");
-        schoolZip.sendKeys("94082");
-        WebElement schoolTelephone = driver.findElementByXPath("//input[@name='schoolTelephone']");
-        schoolTelephone.sendKeys("450-55-55-44");
+        driver.findElementByXPath("//input[@name='school-name']").sendKeys(schoolNameex);
+        driver.findElementByXPath("//input[@name='school-address']").sendKeys(schoolAddressex);
+        driver.findElementByXPath("//input[@name='school-city']").sendKeys(schoolCityex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.schoolState']/option[@value = 'CA']").click();
+        driver.findElementByXPath("//input[@name='school-zip']").sendKeys(schoolZipex);
+        driver.findElementByXPath("//input[@name='schoolTelephone']").sendKeys(schoolTelephoneex);
         //Parent Information
-        WebElement parentName = driver.findElementByXPath("//input[@name='parent-name']");
-        parentName.sendKeys("Michelle Otkins");
-        WebElement parentAddress = driver.findElementByXPath("//input[@name='parent-address']");
-        parentAddress.sendKeys("255 Acalanes dr.");
-        WebElement parentCity = driver.findElementByXPath("//input[@name='parent-city']");
-        parentCity.sendKeys("Palo Alto");
-        WebElement parentState = driver.findElementByXPath("//select[@ng-model='wizard.report.parentState']/option[@value = 'CA']");
-        parentState.click();
-        WebElement parentZip = driver.findElementByXPath("//input[@name='parentZip']");
-        parentZip.sendKeys("94080");
-        WebElement parentTelephone = driver.findElementByXPath("//input[@name='parentTelephone']");
-        parentTelephone.sendKeys("650-55-55-44");
+        driver.findElementByXPath("//input[@name='parent-name']").sendKeys(parentNameex);
+        driver.findElementByXPath("//input[@name='parent-address']").sendKeys(parentAddressex);
+        driver.findElementByXPath("//input[@name='parent-city']").sendKeys(parentCityex);
+        driver.findElementByXPath("//select[@ng-model='wizard.report.parentState']/option[@value = 'CA']").click();
+        driver.findElementByXPath("//input[@name='parentZip']").sendKeys(parentZipex);
+        driver.findElementByXPath("//input[@name='parentTelephone']").sendKeys(parentTelephoneex);
         //Employer Information
         WebElement subjectOccupation = driver.findElementByXPath("//input[@name='occupation']");
         subjectOccupation.sendKeys("IT");
