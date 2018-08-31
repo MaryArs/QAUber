@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="89222eb0-dea4-4ee1-a22f-e7cffc73578d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QAUber_Fit/loginTestNG/LoginTestFits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QAUber_Fit/loginTestNG/LoginTestFits.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/.~lock.TestData.xls#" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.~lock.TestData.xls#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TestData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestData.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/.~lock.TestData.xls#" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,15 +20,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginTestFits.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
+            <state relative-caret-position="315">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#15514#15515#0" expanded="true" />
-                <element signature="e#15543#15544#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLoginForHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/TestLoginForHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportsPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/ReportsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,14 +108,18 @@
         <option value="$PROJECT_DIR$/src/main/java/bankAccount/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginTestNG/TestLoginForHomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/TestLoginForHomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ReportsPage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1360" />
-    <option name="y" value="45" />
-    <option name="width" value="1932" />
-    <option name="height" value="1178" />
+    <option name="x" value="-6" />
+    <option name="y" value="26" />
+    <option name="width" value="1378" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -103,7 +131,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,12 +162,69 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loggingtoFITS" type="462c0819:PsiDirectoryNode" />
+              <item name="insurance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginTestNG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="palendrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Session5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QAUber_Fit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QAUber_Fit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,18 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTestFits">
-    <configuration name="Launcher (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bankAccount.Launcher" />
-      <module name="QAUber_Fit" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bankAccount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.TestLoginForHomePage">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bank.Test" />
       <module name="QAUber_Fit" />
@@ -180,6 +253,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestLoginForHomePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestLoginForHomePage" />
+      <module name="QAUber_Fit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,7 +307,7 @@
       <module name="QAUber_Fit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loginTestNG.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,7 +336,7 @@
       <module name="QAUber_Fit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loginTestNG.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,20 +384,20 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Launcher (1)" />
+      <item itemvalue="TestNG.LoginTestFits" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestWebDriver" />
       <item itemvalue="Application.loginAndFillReportsPage" />
       <item itemvalue="TestNG.LoginTestFits.addReportsTest" />
-      <item itemvalue="TestNG.LoginTestFits" />
+      <item itemvalue="Application.TestLoginForHomePage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTestFits.addReportsTest" />
+        <item itemvalue="Application.TestLoginForHomePage" />
         <item itemvalue="Application.loginAndFillReportsPage" />
+        <item itemvalue="TestNG.LoginTestFits.addReportsTest" />
         <item itemvalue="Application.TestWebDriver" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Launcher (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +447,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1360" y="45" width="1932" height="1178" extended-state="7" />
+    <frame x="-6" y="26" width="1378" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -374,19 +458,19 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32833022" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32833022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3280757" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16178624" />
       <window_info anchor="right" id="Gradle" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39962476" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39962476" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -411,41 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/palendrome/ispalendrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bank/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/student/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/FibonacciNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -515,13 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestChromeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -711,23 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="32" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/insurance/InsurancePolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bank/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="804">
@@ -735,24 +760,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/insurance/InsurancePolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        <state relative-caret-position="-349">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loggingtoFITS/loginAndFillReportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
+        <state relative-caret-position="285">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15514#15515#0" expanded="true" />
-            <element signature="e#15543#15544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestChromeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginTestNG/LoginTestFits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1444">
+          <caret line="56" column="103" lean-forward="true" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.6.0/1707eb20e0231f0197e8583ab3b48bfa24d7bd51/selenium-remote-driver-3.6.0-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#3103#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestLoginForHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ReportsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
           </folding>
         </state>
       </provider>

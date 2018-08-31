@@ -80,7 +80,7 @@ public class LoginTestFits {
         driver.findElementByXPath("//input[@name='street-address']").sendKeys(streetAddressex);
         driver.findElementByXPath("//select[@ng-model='wizard.report.country']/option[text()='United States']").click();
         driver.findElementByXPath("//input[@name='city']").sendKeys(cityex);
-        driver.findElementByXPath("//select[@ng-model='wizard.report.state']/option[text()='California']").click();
+        driver.findElementByXPath("//select[@ng-model='wizard.report.statecd ./d']/option[text()='California']").click();
         driver.findElementByXPath("//input[@name='zip']").sendKeys(zipCodeex);
         driver.findElementByXPath("//input[@name='phone']").sendKeys(telephoneex);
         driver.findElementByXPath("//input[@name='email']").sendKeys(emailex);
