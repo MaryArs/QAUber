@@ -1,7 +1,9 @@
 package test;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import pages.HomePage;
 import pages.ReportsPage;
 
@@ -14,8 +16,11 @@ public class TestLoginForHomePage {
         WebDriver cd = new ChromeDriver();
 
         //implicit wait
-        cd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-
+        cd.manage().timeouts().implicitlyWait(600, TimeUnit.SECONDS);
+//        System.setProperty("webdriver.gecko.driver", "/home/peer/dev/geckodriver");
+//        FirefoxDriver cd = new FirefoxDriver();
+//        cd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+//        cd.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         //get the url
         HomePage lp = new HomePage(cd);
 
@@ -35,18 +40,12 @@ public class TestLoginForHomePage {
         //validate the text on reports page
         String rpHeaderTxt = rpObject.getHeaderText();
         if(rpHeaderTxt.equals("Reports")){
-            System.out.println("PASS");
-        }else{
-            System.out.println("FAIL");
+            System.out.println("PASS " + rpHeaderTxt);
         }
-
+        else{
+            System.out.println("FAIL " + rpHeaderTxt);
+            }
         //signout
         rpObject.signOut();
-
-//        cd.findElement(By.xpath("/html/body/div[2]/header/nav/div[2]/ul[2]/li/a/span")).click();
-//        cd.findElement(By.xpath("/html/body/div[2]/aside[2]/nav/div/div/div[1]/div/div/div[3]/button")).click();
-
-
-
     }
 }
